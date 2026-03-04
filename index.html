@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassBase</title>
+    <link rel="icon" type="image/x-icon" href="assets/locked.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>PassBase</h1>
+        
+        <div class="password-display">
+            <input type="text" id="password" readonly placeholder="Click generate">
+            <button type="button" id="copy-btn">Copy</button>
+        </div>
+
+        <button type="button" id="generator">Generate Password</button>
+
+        <fieldset class="options">
+            <legend>Password Settings</legend>
+            
+            <div class="option-item">
+                <label for="length">Password Length:</label>
+                <input type="range" id="length" min="8" max="64" value="16">
+                <span id="length-val">16</span>
+            </div>
+
+            <div class="option-item">
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">Include lowercase</label>
+            </div>
+
+            <div class="option-item">
+                <input type="checkbox" id="uppercase" checked>
+                <label for="uppercase">Include uppercase</label>
+            </div>
+
+            <div class="option-item">
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Include numbers</label>
+            </div>
+
+            <div class="option-item">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Include symbols</label>
+            </div>
+        </fieldset>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
