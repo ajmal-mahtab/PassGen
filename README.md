@@ -33,3 +33,7 @@ PassBase is a lightweight, secure, and responsive password generator built with 
 ├── js/
 │   └── script.js   # Generation logic and event listeners
 └── index.html      # Main application structure
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have ideas for new features, such as adding an entropy meter or password history tracking.
