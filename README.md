@@ -1,7 +1,7 @@
 # PassBase
 
 PassBase is a lightweight, secure, and responsive password generator built with HTML, CSS, and vanilla JavaScript. It helps users create cryptographically strong passwords directly in their browser.
-This project is live at https://ajmal-mahtab.github.io/PassGen/
+This project is live at https://ajmal-mahtab.github.io/PassBase/
 
 ## Features
 * **Secure Generation:** Uses `crypto.getRandomValues()` for cryptographically strong random numbers.
